@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.slider {
+  width: 560px; }
+
+#largeImg {
+  border: solid 1px #ccc;
+  width: 550px;
+  height: 400px;
+  padding: 5px; }
+
+#thumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  #thumbs > div {
+    border: solid 1px #ccc;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    margin: 2px; }
+    #thumbs > div:hover {
+      border-color: #f90; }
+
+/*# sourceMappingURL=main.css.map */
